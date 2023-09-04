@@ -52,7 +52,7 @@ class WellcomePage extends StatelessWidget {
 
                 MaterialButton(
                   onPressed: () {
-                    // print('Sign Up');
+                    print('Sign Up');
                   },
                   height: 47,
                   minWidth: 200,
@@ -67,7 +67,7 @@ class WellcomePage extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
-                      color: Color.fromARGB(255, 22, 68, 148),
+                      color: Color.fromARGB(255, 15, 95, 235),
                     ),
                   ),
                 ),
@@ -83,7 +83,7 @@ class WellcomePage extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(9),
                     side: const BorderSide(
-                        color: Color.fromARGB(255, 27, 80, 173)),
+                        color: Color.fromARGB(255, 18, 89, 213)),
                   ),
                   color: const Color.fromARGB(255, 27, 80, 173),
                   child: const Text(

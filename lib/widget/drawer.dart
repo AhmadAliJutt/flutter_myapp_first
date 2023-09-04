@@ -48,7 +48,7 @@ class myDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(CupertinoIcons.mail, color: Colors.white),
               title: Text(
-                "Email me",
+                "Email us",
                 textScaleFactor: 1.2,
                 style: TextStyle(
                   color: Colors.white,

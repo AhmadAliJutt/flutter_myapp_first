@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_myapp_first/utils/routes.dart';
+//import 'package:flutter_myapp_first/utils/routes.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -51,8 +51,6 @@ class _LoginPageState extends State<LoginPage> {
                         changeButton = true;
                       });
                       await Future.delayed(const Duration(seconds: 1));
-
-                      Navigator.pushNamed(context, MyRoutes.homeRoutes);
                     },
                     child: AnimatedContainer(
                       duration: const Duration(seconds: 1),
